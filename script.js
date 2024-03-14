@@ -1,9 +1,11 @@
-let n1=0,n2=1,n3=0;
-function fibonacci(n) {
-	for(let i=0;i<n;i++){
-		n1=n2;
-		n3=n1+n2;
-		n2=n3;
+let a[50]={0,1,1};
+	function fibonacci(n) {
+		if(n>3){
+			for(int i=3;i<n;i++){
+				int j=i-2,k=i-1;
+				a[i]=a[j]+a[k];
+			}
+			return a[n];
 	}
 	console.log(n1);
 }
