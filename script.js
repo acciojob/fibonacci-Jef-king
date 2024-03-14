@@ -6,9 +6,9 @@
 				int j=i-2,k=i-1;
 				a[i]=a[j]+a[k];
 			}
-			return a[n];
+			console.log(a[n]);
 	}
-	console.log(n1);
+	
 }
 fibonacci(prompt());
 module.exports = fibonacci;
