@@ -1,5 +1,6 @@
-let a[50]={0,1,1};
+
 	function fibonacci(n) {
+		let a[50]={0,1,1};
 		if(n>3){
 			for(int i=3;i<n;i++){
 				int j=i-2,k=i-1;
