@@ -1,4 +1,3 @@
-
 	function fibonacci(n) {
 		let a=[0,1];
 		if(n>=3){
@@ -6,9 +5,8 @@
 				let j=i-2,k=i-1;
 				a[i]=a[j]+a[k];
 			}
-			console.log(a[n-1]);
 	}
-	
+				console.log(a[n-1]);
 }
 	
 }
