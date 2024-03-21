@@ -6,7 +6,7 @@
 				int j=i-2,k=i-1;
 				a[i]=a[j]+a[k];
 			}
-			console.log(a[n]);
+			console.log(a[n-1]);
 	}
 	
 }
