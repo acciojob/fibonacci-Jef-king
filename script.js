@@ -1,13 +1,15 @@
 
 	function fibonacci(n) {
-		let a[50]={0,1,1};
-		if(n>3){
-			for(int i=3;i<n;i++){
-				int j=i-2,k=i-1;
+		let a=[0,1];
+		if(n>=3){
+			for(let i=2;i<n;i++){
+				let j=i-2,k=i-1;
 				a[i]=a[j]+a[k];
 			}
 			console.log(a[n-1]);
 	}
+	
+}
 	
 }
 fibonacci(prompt());
