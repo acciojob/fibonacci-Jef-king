@@ -6,7 +6,7 @@
 				a[i]=a[j]+a[k];
 			}
 	}
-				alert(a[n-1]);
+				return(a[n-1]);
 }
 fibonacci(prompt());
 module.exports = fibonacci;
