@@ -9,6 +9,6 @@
 				console.log(a[n-1]);
 }
 	
-}
+
 fibonacci(prompt());
 module.exports = fibonacci;
