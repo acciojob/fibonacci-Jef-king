@@ -1,4 +1,4 @@
-	function fibonacci(n) {
+	function fibonacci(n) {}
 		let a=[0,1];
 		if(n>=3){
 			for(let i=2;i<n;i++){
