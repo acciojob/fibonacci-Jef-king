@@ -8,5 +8,4 @@
 	}
 				return(a[n]);
 }
-fibonacci(prompt());
 module.exports = fibonacci;
